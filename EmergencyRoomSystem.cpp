@@ -1,11 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
- Hospital Emergency Room Patient Management System
- C++ Version of the given Java code
-*/
-
 class Patient {
 public:
     static long long NEXT_ARRIVAL;
@@ -270,3 +265,4 @@ int main() {
     srand(time(0));
     EmergencyRoomSystem().run();
 }
+
